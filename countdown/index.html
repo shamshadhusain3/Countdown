@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Countdown</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="overlay">
+    <h1>Set Your Reminder</h1>
+    <h2 class="udate">25-01-2023 10:52</h2>
+    <div class="container" id="countdown">
+        <div class="time">
+         <input type="text" class="day" value="00" readonly><br>
+         <label for="">Days</label>   
+        </div>
+        <div class="time">
+        <input type="text" class="day" value="00" readonly><br>
+        <label for="">Hours</label>
+        </div>
+        <div class="time">
+         <input type="text" class="day" value="00" readonly><br>
+         <label for="">Minutes</label>   
+        </div>
+        <div class="time">
+        <input type="text" class="day" value="00" readonly><br>
+        <label for="">Seconds</label> 
+        </div>
+        
+
+    </div>
+   <div class="user">
+    <input type="datetime-local" class="data">
+    <label for="">Enter Date & time</label>
+   </div>
+   <input type="button" class="btn" value="Enter" onclick="userDate()">
+
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
